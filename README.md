@@ -14,3 +14,6 @@ You can access OBS-Studio via browser using novnc accessing your personal LXDE D
 It comes with integrated Obs-Websocket for streaming have a look at another Project of mine: [streaming](https://github.com/moo-the-cow/streaming)
 
 Because this is specifically for streaming there will be a preset of scenes (especially the LIVE scene having the srt setup from my other project). Feel free to change the backgrounds for BRB etc.
+
+# HOWTO
+You can access the Desktop via Browser url: http://[hostip]:6080/ if you want to access another port just modify the ports in your docker-compose yaml file.
