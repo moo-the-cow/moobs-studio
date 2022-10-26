@@ -15,7 +15,7 @@ It comes with integrated Obs-Websocket for streaming have a look at another Proj
 
 Because this is specifically for streaming there will be a preset of scenes (especially the LIVE scene having the srt setup from my other project). Feel free to change the backgrounds for BRB etc.
 
-**if you are not a developer please contact a friend who's familiar with this, that person will know what to do**
+**if you are not a developer please contact a someone who's familiar with this, that person will know what to do**
 
 # HOWTO
 You can access the Desktop via Browser url: http://[hostip]:6080/ if you want to access another port just modify the ports in your docker-compose yaml file.
