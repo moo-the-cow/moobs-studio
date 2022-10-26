@@ -21,6 +21,8 @@ You can access the Desktop via Browser url: http://[hostip]:6080/ if you want to
 # SETUP
 just because I have documented how to use docker-compose yaml files I will just quickly post an example:
 
+download all the files into a directory and start it via 
+
 `docker-compose -f docker-compose-full.yaml up -d`
 
 you don't have to use the full yaml file you can just use the standalone version docker-compose.yaml but I don't recommend it, because it will communicate internally via service names.
