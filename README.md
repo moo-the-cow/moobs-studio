@@ -25,4 +25,4 @@ just because I have documented how to use docker-compose yaml files I will just 
 
 you don't have to use the full yaml file you can just use the standalone version docker-compose.yaml but I don't recommend it, because it will communicate internally via service names.
 
-the full version contains the SRTLA receiver and the SRTLA-NGINX service and MOOBS-STUDIO
+the full version contains the SRTLA-RECEIVER and the SRTLA-NGINX service and MOOBS-STUDIO
