@@ -45,6 +45,9 @@ Otherwise you will have to re-configure your Scene and use the url for your own 
 + I cannot see my stream souce: Check your SRTLA url in the LIVE scene. IP and streamkey must match your SRT endpoint
 + My Websocket connection isn't working: By default websocket is disabled, enable it via checkbox and check the IP and password match the settings of the tool you're connecting from.
 
+# additional words
+sorry I haven't created a wiki page yet, there is actually a lot more to document, but I just wanted to release, because it was working for quite a while on my end already. if you have any questions or issues just create a ticket, and IF I can solve it and IF I have time I will get to it
+
 # Screenshots:
 ![image](https://user-images.githubusercontent.com/34907770/198009476-f77ce5dc-5e8b-4812-9886-165cf377028c.png)
 ![image](https://user-images.githubusercontent.com/34907770/198009599-4672367f-a3f8-4a73-acb5-c5071a362fb9.png)
