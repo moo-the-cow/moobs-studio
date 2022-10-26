@@ -19,6 +19,8 @@ Because this is specifically for streaming there will be a preset of scenes (esp
 
 **if you are not a developer please contact a someone who's familiar with this, that person will know what to do**
 
+you pick yourself if you want to enable/disavke the overlay so this gets promoted/spread, but I'd very much appreciate it.
+
 # HOWTO
 You can access the Desktop via Browser url: http://[hostip]:6080/ if you want to access another port just modify the ports in your docker-compose yaml file.
 
