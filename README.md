@@ -1,3 +1,7 @@
+## you might also wanna check out related projects:
++ [streaming](https://github.com/moo-the-cow/streaming): SRTLA-RECEIVER and SRTLA-NGINX for self hosting
++ [moobs](https://github.com/moo-the-cow/moobs): bot for obs websocket and twitch (and more => see wiki)
+
 # moobs-studio
 Docker linux container for OBS Studio (nvidia GPU enabled) for cloud and selfhosting
 
