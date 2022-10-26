@@ -23,8 +23,6 @@ just because I have documented how to use docker-compose yaml files I will just 
 
 download all the files into a directory and start it via 
 
-`docker-compose -f docker-compose-full.yaml up -d`
+`docker-compose -f docker-compose.yaml up -d`
 
-you don't have to use the full yaml file you can just use the standalone version docker-compose.yaml but I don't recommend it, because it will communicate internally via service names.
-
-the full version contains the SRTLA-RECEIVER and the SRTLA-NGINX service and MOOBS-STUDIO
+I recommend you add the docker compose services from https://github.com/moo-the-cow/moobs and https://github.com/moo-the-cow/streaming/tree/main/streaming into your docker-compose yaml file for the ultimate streaming experience. Those services are well documented on those linked pages
