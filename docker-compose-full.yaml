@@ -1,5 +1,34 @@
 version: '3.5'
 services:
+  moobs-studio:
+    image: ${REPOSITORY_NAME}/moobs-studio:1
+    container_name: moobs-studio
+    environment:
+      - RESOLUTION=1920x1080
+      - USER=moo
+      - PASSWORD=thecow
+      #this is specifically for WSL, but it doesn't hurt if the wls directory doesn't exist (see volume mount)
+      - LD_LIBRARY_PATH=/lib:/usr/lib:/usr/local/lib:/opt/ffmpeg/lib:/usr/lib/wsl/lib:/opt/obs/bin/64bit:/opt/google/chrome
+    #probably needs to be modified in cloud
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    #needed for gpu support in WSL (windows host only)
+    devices:
+      - /dev/dxg
+    volumes:
+      - /dev/shm:/dev/shm
+      #needed for gpu support in WSL (windows host only)
+      - /usr/lib/wsl/lib/nvidia-smi:/usr/local/bin/nvidia-smi
+      - /usr/lib/wsl:/usr/lib/wsl
+    ports:
+      - "5900:5900"
+      - "6080:80"
+    restart: unless-stopped
   srtla-nginx:
     image: ${REPOSITORY_NAME}/${PROJECT_NAME}-srtla-nginx:${GLOBAL_VERSION}
     container_name: srtla-nginx
