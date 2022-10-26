@@ -1,0 +1,27 @@
+version: '3.5'
+services:
+  moobs-studio:
+    image: ${REPOSITORY_NAME}/moobs-studio:1
+    container_name: moobs-studio
+    environment:
+      - RESOLUTION=1920x1080
+      - USER=moo
+      - PASSWORD=thecow
+      - LD_LIBRARY_PATH=/lib:/usr/lib:/usr/local/lib:/opt/ffmpeg/lib:/usr/lib/wsl/lib:/opt/obs/bin/64bit:/opt/google/chrome
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    devices:
+      - /dev/dxg
+    volumes:
+      - /dev/shm:/dev/shm
+      - /usr/lib/wsl/lib/nvidia-smi:/usr/local/bin/nvidia-smi
+      - /usr/lib/wsl:/usr/lib/wsl
+    ports:
+      - "5900:5900"
+      - "6080:80"
+    restart: unless-stopped
