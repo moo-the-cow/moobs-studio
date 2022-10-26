@@ -25,4 +25,4 @@ download all the files into a directory and start it via
 
 `docker-compose -f docker-compose.yaml up -d`
 
-I recommend you add the docker compose services from https://github.com/moo-the-cow/moobs and https://github.com/moo-the-cow/streaming/tree/main/streaming into your docker-compose yaml file for the ultimate streaming experience. Those services are well documented on those linked pages
+I recommend you add the docker compose services from https://github.com/moo-the-cow/moobs and https://github.com/moo-the-cow/streaming (streaming folder) into your docker-compose yaml file for the ultimate streaming experience. Those services are well documented on those linked pages
