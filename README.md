@@ -12,3 +12,5 @@ But you will defnitely need some NVIDIA GPU supported
 
 You can access OBS-Studio via browser using novnc accessing your personal LXDE Desktop
 It comes with integrated Obs-Websocket for streaming have a look at another Project of mine: [streaming](https://github.com/moo-the-cow/streaming)
+
+Because this is specifically for streaming there will be a preset of scenes (especially the LIVE scene having the srt setup from my other project). Feel free to change the backgrounds for BRB etc.
