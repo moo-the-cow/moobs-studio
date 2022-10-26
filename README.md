@@ -35,7 +35,10 @@ I recommend you add the docker compose services from https://github.com/moo-the-
 
 Otherwise you will have to re-configure your Scene and use the url for your own SRT server and also the reconfigure html file showing the bitrate
 
-Screenshots:
+# Common Issues
+I cannot see my stream souce: Check your SRTLA url in the LIVE scene. IP and streamkey must match your SRT endpoint
+
+# Screenshots:
 ![image](https://user-images.githubusercontent.com/34907770/198009476-f77ce5dc-5e8b-4812-9886-165cf377028c.png)
 ![image](https://user-images.githubusercontent.com/34907770/198009599-4672367f-a3f8-4a73-acb5-c5071a362fb9.png)
 ![image](https://user-images.githubusercontent.com/34907770/198009630-35e4c77f-b33c-4a03-9f55-7d309c758ef7.png)
