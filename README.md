@@ -7,6 +7,8 @@ This setup was tested on a windows machine using WSL (Ubuntu 20.04) and NVIDIA C
 
 On a native linux environment NVIDIA HW acceleration is even easier to use
 
+(have a look in the docker-compose yaml file comments)
+
 For cloud setup I cannot post any hints, because I do not have any cloud setup and also this may be different depending which cloud environment you use.
 But you will defnitely need some NVIDIA GPU supported
 
