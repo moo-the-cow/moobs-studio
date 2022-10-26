@@ -9,3 +9,5 @@ On a native linux environment NVIDIA HW acceleration is even easier to use
 
 For cloud setup I cannot post any hints, because I do not have any cloud setup and also this may be different depending which cloud environment you use.
 But you will defnitely need some NVIDIA GPU supported
+
+You can access your OBS via browser using novnc accessing your personal LXDE Desktop
