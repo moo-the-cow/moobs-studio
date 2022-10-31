@@ -28,7 +28,7 @@ Because this is specifically for streaming there will be a preset of scenes (esp
 you pick yourself if you want to enable/disable the overlay so this gets promoted/spread, but I'd very much appreciate it (especially at the start of this project)
 
 # Changelog
-+ v1.1: updated ffmpeg and srt and enabled HEVC for recording
++ v1.1: updated ffmpeg and srt
 + v1: initial commit
 
 # HOWTO
@@ -51,6 +51,7 @@ you need to have WSLG and WSL installed (see volume mappings)
 # Common Issues
 + I cannot see my stream souce: Check your SRTLA url in the LIVE scene. IP and streamkey must match your SRT endpoint
 + My Websocket connection isn't working: By default websocket is disabled, enable it via checkbox and check the IP and password match the settings of the tool you're connecting from.
++ HEVC for recording doesn't work: Currently recording in HEVC only for windows is supported
 
 # additional words
 sorry I haven't created a wiki page yet, there is actually a lot more to document, but I just wanted to release, because it was working for quite a while on my end already. if you have any questions or issues just create a ticket, and IF I can solve it and IF I have time I will get to it
