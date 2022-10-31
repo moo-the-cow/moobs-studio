@@ -9,6 +9,7 @@ services:
       - PASSWORD=thecow
       #this is specifically for WSL, but it doesn't hurt if the wls directory doesn't exist (see volume mount)
       - LD_LIBRARY_PATH=/lib:/usr/lib:/usr/local/lib:/opt/ffmpeg/lib:/usr/lib/wsl/lib:/opt/obs/bin/64bit:/opt/google/chrome
+      - PULSE_SERVER=/mnt/wslg/PulseServer
     #probably needs to be modified in cloud
     deploy:
       resources:
@@ -25,6 +26,7 @@ services:
       #needed for gpu support in WSL (windows host only)
       - /usr/lib/wsl/lib/nvidia-smi:/usr/local/bin/nvidia-smi
       - /usr/lib/wsl:/usr/lib/wsl
+      - /mnt/wslg:/mnt/wslg
     ports:
       - "5900:5900"
       - "6080:80"
