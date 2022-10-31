@@ -33,9 +33,6 @@ You can access the Desktop via Browser url: http://[hostip]:6080/ if you want to
 # SETUP
 just because I have documented how to use docker-compose yaml files I will just quickly post an example:
 
-## Audio
-you need to have WSLG and WSL installed (see volume mappings)
-
 download all the files into a directory and start it via 
 
 `docker-compose -f docker-compose.yaml up -d`
@@ -43,6 +40,9 @@ download all the files into a directory and start it via
 I recommend you add the docker compose services from https://github.com/moo-the-cow/moobs and https://github.com/moo-the-cow/streaming (streaming folder) into your docker-compose yaml file for the ultimate streaming experience (communicating within their docker subnet). Those services are well documented on those linked pages.
 
 Otherwise you will have to re-configure your Scene and use the url for your own SRT server and also the reconfigure html file showing the bitrate
+
+## Audio
+you need to have WSLG and WSL installed (see volume mappings)
 
 # Common Issues
 + I cannot see my stream souce: Check your SRTLA url in the LIVE scene. IP and streamkey must match your SRT endpoint
