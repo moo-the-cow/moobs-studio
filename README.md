@@ -28,8 +28,7 @@ Because this is specifically for streaming there will be a preset of scenes (esp
 you pick yourself if you want to enable/disable the overlay so this gets promoted/spread, but I'd very much appreciate it (especially at the start of this project)
 
 # Changelog
-+ v1.1: updated ffmpeg and srt
-+ v1: initial commit
++ v1: updated ffmpeg and srt
 
 # HOWTO
 You can access the Desktop via Browser url: http://[hostip]:6080/ if you want to access another port just modify the ports in your docker-compose yaml file.
