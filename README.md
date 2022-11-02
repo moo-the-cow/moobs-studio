@@ -28,6 +28,7 @@ Because this is specifically for streaming there will be a preset of scenes (esp
 you pick yourself if you want to enable/disable the overlay so this gets promoted/spread, but I'd very much appreciate it (especially at the start of this project)
 
 # Changelog
++ v1.1: added initial scene and profiles
 + v1: updated ffmpeg and srt
 
 # HOWTO
