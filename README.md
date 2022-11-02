@@ -54,7 +54,9 @@ you need to have WSLG and WSL installed (see volume mappings)
 + HEVC for recording doesn't work: Currently recording in HEVC only for windows is supported
 
 # additional words
-sorry I haven't created a wiki page yet, there is actually a lot more to document, but I just wanted to release, because it was working for quite a while on my end already. if you have any questions or issues just create a ticket, and IF I can solve it and IF I have time I will get to it
+sorry I haven't created a wiki page yet, there is actually a lot more to document, but I just wanted to release, because it was working for quite a while on my end already. if you have any questions or issues just create a ticket, and IF I can solve it and IF I have time I will get to it.
+
+I'm very curious about your experience with this in a cloud, please let me know if you want to share!
 
 # Screenshots:
 ![image](https://user-images.githubusercontent.com/34907770/198009476-f77ce5dc-5e8b-4812-9886-165cf377028c.png)
