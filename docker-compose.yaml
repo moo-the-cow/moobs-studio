@@ -1,7 +1,7 @@
 version: '3.5'
 services:
   moobs-studio:
-    image: ${REPOSITORY_NAME}/moobs-studio:1
+    image: ${REPOSITORY_NAME}/moobs-studio:${VERSION}
     container_name: moobs-studio
     environment:
       - RESOLUTION=1920x1080
