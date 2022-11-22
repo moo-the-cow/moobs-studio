@@ -4,6 +4,7 @@ services:
     image: ${REPOSITORY_NAME}/moobs-studio:${VERSION}
     container_name: moobs-studio
     environment:
+      #change this to your own needs
       - RESOLUTION=1920x1080
       - USER=moo
       - PASSWORD=thecow
@@ -27,6 +28,10 @@ services:
       - /usr/lib/wsl/lib/nvidia-smi:/usr/local/bin/nvidia-smi
       - /usr/lib/wsl:/usr/lib/wsl
       - /mnt/wslg:/mnt/wslg
+      #if you want to persist some of your settings (e.g. scenes/profiles) hint: change your USERname directory from moo to whatever
+      - ./profiles:/home/moo/.config/obs-studio/basic/profiles
+      - ./scenes:/home/moo/.config/obs-studio/basic/scenes
+      - ./global.ini:/home/moo/.config/obs-studio/global.ini
     ports:
       - "5900:5900"
       - "6080:80"
